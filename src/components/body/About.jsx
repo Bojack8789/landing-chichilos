@@ -20,7 +20,7 @@ const About = () => {
   };
   const Parent = styled.div`
 
-  height: 130vh;
+  height: 150vh;
   margin:0;
 
   display: flex;
@@ -49,7 +49,7 @@ grid-row-gap: 0px
 
   `;
   const Div2 = styled.div`
-  height: 120%;
+  height: 140%;
 
   grid-area: 1 / 1 / 6 / 6; 
   position: absolute;
