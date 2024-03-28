@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../index.css';
 import styled from 'styled-components';
 import ChichilosLogo from '../../assets/ChichilosLogo.png'
 
@@ -46,7 +47,21 @@ justify-content: center;
 
   @media (max-width: 768px) {
     grid-area: 3 / 1 / 5 / 2;
+    margin: 70px 0px 30px 0px;
   }
+`;
+
+const Div3 = styled.div`
+margin: 13px;
+padding: 13px;
+background-color:var(--azuulgris);
+opacity: 0.7;
+
+@media (max-width: 768px) {
+  
+  margin: 0;
+}
+
 `;
 
 const Image = styled.img`
@@ -54,6 +69,7 @@ const Image = styled.img`
   height: 130%;
   max-height: 500px;
   min-height: 200px;
+  object-fit: contain;
 `;
 
 const Text = styled.p`
@@ -71,10 +87,13 @@ const SectionLogo = () => {
         <Image src={ChichilosLogo} alt="Logo" />
       </Div1>
       <Div2>
-        <Text>
+        <Div3>
+          <Text>
           Chichilos es un emprendimiento mendocino comprometido con la moda sostenible y el cuidado del medio ambiente. Nos especializamos en la creación de prendas de vestir, accesorios y juguetes ecológicos, diseñados con amor y elaborados con materiales reciclados de alta calidad. Nuestro objetivo es ofrecer productos únicos y con estilo, mientras contribuimos a reducir el impacto ambiental de la industria textil. En Chichilos, combinamos la creatividad con la conciencia ecológica para ofrecerte una experiencia de compra única y consciente.
-        </Text>
+          </Text>
+        </Div3>
       </Div2>
+
     </Parent>
   );
 };

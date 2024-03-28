@@ -8,6 +8,7 @@ import SectionPagination from './components/body/SectionPagination.jsx'
 import WhatsAppFloatingButton from './components/body/WhatsAppFloatingButton.jsx'
 import AnimatedBackground from './components/body/AnimatedBackground.jsx'
 import About from './components/body/About.jsx'
+import Footer from './components/body/Footer.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,41 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <SectionPagination/>
 
-    <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
+
       <WhatsAppFloatingButton/>
+      <Footer></Footer>
   </React.StrictMode>,
 )

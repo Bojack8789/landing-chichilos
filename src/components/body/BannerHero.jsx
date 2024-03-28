@@ -25,8 +25,8 @@ const HeroSection = styled.section`
   background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
     url(${props => props.banner}); // Usar la imagen importada como fondo
   background-position: 40% 50%;
-  background-size: cover, cover;
-  height: 60vh;
+  background-size: 90%, cover; /* Cambiado a 90% */
+  height: 90vh; /* Cambiado a 90vh */
   color: #fafafc;
   display: flex;
   align-items: center;  
@@ -52,10 +52,10 @@ const HeroSection = styled.section`
     background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
       url(${props => props.banner}); // Usar la imagen importada como fondo
     background-position:  70% ;
-    background-size: cover, cover;
+    background-size: 90%, cover; /* Cambiado a 90% */
     align-items: flex-start;
     padding-top: 7.5rem;
-    height: 75vh;
+    height: 90vh; /* Cambiado a 90vh */
     max-height: 720px;
   }
 `;
