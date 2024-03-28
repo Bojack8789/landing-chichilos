@@ -23,41 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <SectionPagination/>
 
-    <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
-      <Card
-        imageSrc="https://img.freepik.com/foto-gratis/arbol-navidad-decorado-estrella_318354-1719.jpg"
-        title="Título de la tarjeta"
-        description="Descripción de la tarjeta."
-      />
+
       <WhatsAppFloatingButton/>
       <Footer></Footer>
   </React.StrictMode>,
